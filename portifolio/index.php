@@ -6,18 +6,29 @@
     <title>Meu Protfolio</title>
 </head>
 <body>
+    <?php 
+        $nome = "Aluno";
+
+        $saudacao = "Oi";
+
+        $titulo = $saudacao . " Portfolio " . $nome;
+
+        $subtitulo = "Seja bem vindo ao seu portfolio!!";
+
+        $ano = 2024;
+    ?>
+
     <h1>
-        <?php 
-            echo "Portfolio do Aluno";
-        ?>
+        <?=$titulo?>
     </h1>
 
     <p>
-        <?php 
-        echo "Nome do Aluno";
-        ?>
+        <?=$subtitulo?>
     </p>
 
+    <p>
+        <?=$ano?>
+    </p>
 
 </body>
 </html>
