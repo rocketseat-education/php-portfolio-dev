@@ -14,12 +14,14 @@ Este repositório contém uma série de recursos e exercícios projetados para e
 
 O repositório está estruturado da seguinte forma:
 
-- **`/intro`**: Introdução ao PHP, incluindo o que é PHP e como instalá-lo.
-- **`/sintaxe`**: Fundamentos da sintaxe PHP, como variáveis, operadores, e estruturas de controle.
-- **`/funcoes`**: Funções em PHP, incluindo a definição e utilização de funções.
-- **`/arrays`**: Trabalhando com arrays e estruturas de dados em PHP.
-- **`/formularios`**: Manipulação de formulários e dados do usuário.
-- **`/banco-dados`**: Conectando-se e interagindo com bancos de dados MySQL usando PHP.
+**`/portifolio`**
+- Esta seção é uma introdução ao PHP, abordando os conceitos básicos dessa linguagem de programação. Ela inclui uma visão geral sobre o que é PHP e orientações sobre como instalá-lo no seu sistema.
+
+    **`index.php`**
+    - Esta parte cobre os fundamentos da sintaxe PHP, fornecendo uma base sólida para quem está começando com a linguagem.
+
+    **`server.php`**
+    - Foca nas funções em PHP, detalhando como definir e utilizar funções para organizar e reutilizar o código.
 
 ## Começando
 
