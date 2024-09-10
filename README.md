@@ -46,7 +46,7 @@ sudo apt install php php-cli php-fpm
 Para executar os exemplos e exercícios fornecidos no repositório, você pode usar o servidor embutido do PHP. Navegue até o diretório desejado e execute o seguinte comando:
 
 ```bash
-php -S localhost:8000
+php -S localhost:8000 -d auto_prepend_file=server.php
 ```
 
 Depois, abra seu navegador e acesse `http://localhost:8000` para ver os exemplos em ação.
