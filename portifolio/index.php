@@ -11,31 +11,31 @@
 
         $saudacao = "Oi";
 
-        $titulo = $saudacao . " Portfolio " . $nome;
+        $titulo = $saudacao . " Portfolio do " . $nome;
 
-        $subtitulo = "Seja bem vindo ao seu portifolio!!";
+        $subtitulo = "Seja bem vindo ao seu Portfolio!!";
 
         $ano = 2020;
 
-        $projeto="Meu Portifolio";
+        $projeto="Meu Portfolio";
 
         $finalizado=false;
 
         $dataDoProjeto="2024-10-11";
 
-        $descricao="Meu primeiro portifolio. Escrito em PHP e HTML";
+        $descricao="Meu primeiro Portfolio. Escrito em PHP e HTML";
 
         $projetos = [
             [
 
-                "titulo" => "Meu Portifolio",
+                "titulo" => "Meu Portfolio",
                 "finalizado" => true,
                 "data" => "2024-10-11",
                 "descricao" => "Controle de Leitura de Livros",
             ],
             [
 
-                "titulo" => "Meu Portifolio",
+                "titulo" => "Meu Portfolio",
                 "finalizado" => false,
                 "data" => "2024-05-11",
                 "descricao" => "Lista de tarefas. Escrito em PHP e HTML",
