@@ -74,7 +74,6 @@
             }
             return $filtrados;
         }
-
     ?>
 
     <h1><?=$titulo?></h1>
