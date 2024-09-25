@@ -80,19 +80,19 @@
             return $filtrados;
         };
 
-    function filtro($itens, $funcao) {
-        $filtrados = []; // Array para armazenar os itens filtrados
-
-        foreach ($itens as $item) { // Itera sobre cada item no array
-            if ($funcao($item)) { // Aplica a função de callback ao item
-                $filtrados [] = $item; // Se a função retornar verdadeiro, adiciona ao array filtrado
-            }
-        }
-        return $filtrados; // Retorna o array com os itens filtrados
-    }
+//    function filtro($itens, $funcao) {
+//        $filtrados = []; // Array para armazenar os itens filtrados
+//
+//        foreach ($itens as $item) { // Itera sobre cada item no array
+//            if ($funcao($item)) { // Aplica a função de callback ao item
+//                $filtrados [] = $item; // Se a função retornar verdadeiro, adiciona ao array filtrado
+//            }
+//        }
+//        return $filtrados; // Retorna o array com os itens filtrados
+//    }
 
     // Filtrando os projetos para aqueles com ano menor que 2024
-    $projetoFiltrados = filtro($projetos, function ($projeto) {
+    $projetoFiltrados = array_filter($projetos, function ($projeto) {
         return $projeto['ano'] < 2024;
 //        return $projeto['ano'] === 2024 || $projeto['ano'] === 2022;   // Condição de filtragem
     });
