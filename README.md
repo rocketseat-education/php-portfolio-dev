@@ -10,19 +10,6 @@ PHP (Hypertext Preprocessor) é uma linguagem de script do lado do servidor que 
 
 Este repositório contém uma série de recursos e exercícios projetados para ensinar os fundamentos de PHP. O objetivo é fornecer uma compreensão sólida dos conceitos essenciais para que você possa começar a construir suas próprias aplicações web com PHP.
 
-## Estrutura do Repositório
-
-O repositório está estruturado da seguinte forma:
-
-**`/portifolio`**
-- Esta seção é uma introdução ao PHP, abordando os conceitos básicos dessa linguagem de programação. Ela inclui uma visão geral sobre o que é PHP e orientações sobre como instalá-lo no seu sistema.
-
-    **`index.php`**
-    - Esta parte cobre os fundamentos da sintaxe PHP, fornecendo uma base sólida para quem está começando com a linguagem.
-
-    **`server.php`**
-    - Foca nas funções em PHP, detalhando como definir e utilizar funções para organizar e reutilizar o código.
-
 ## Começando
 
 Para começar, clone o repositório para sua máquina local:
