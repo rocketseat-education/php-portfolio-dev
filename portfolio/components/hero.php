@@ -1,6 +1,6 @@
 <?php
 $itens = [
-    ['href' => '#projetos', 'src' => 'img/x-icon.png', alt => 'Twitter Logo'],
+    ['href' => '#projetos', 'src' => 'img/x-icon.png', 'alt' => 'Twitter Logo'],
     ['href' => '', 'src' => 'img/facebook-icon.png', 'alt' => 'Facebook Logo'],
     ['href' => '', 'src' => 'img/linkedin-icon.png', 'alt'=> 'Linkedin Logo'],
     ['href' => '', 'src' => 'img/youtube-icon.png', 'alt' => 'YouTube Logo'],
