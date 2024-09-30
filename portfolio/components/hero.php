@@ -1,3 +1,12 @@
+<?php
+$itens = [
+    ['href' => '#projetos', 'src' => 'img/x-icon.png', alt => 'Twitter Logo'],
+    ['href' => '', 'src' => 'img/facebook-icon.png', 'alt' => 'Facebook Logo'],
+    ['href' => '', 'src' => 'img/linkedin-icon.png', 'alt'=> 'Linkedin Logo'],
+    ['href' => '', 'src' => 'img/youtube-icon.png', 'alt' => 'YouTube Logo'],
+];
+?>
+
 <section class="flex gap-x-3">
 
     <!-- Titulo e Descrição -->
@@ -10,18 +19,13 @@
 
         <ul class="flex gap-x-3 mt-3">
             <!-- links de redes sociais -->
-            <li><a href="">
-                    <img class="h-8 hover:animate-bounce" src="img/x-icon.png" alt="x Logo" />
-                </a></li>
-            <li><a href="#">
-                    <img class="h-8 hover:animate-bounce" src="img/facebook-icon.png" alt="Facebook logo" />
-                </a></li>
-            <li><a href="#">
-                    <img class="h-8 hover:animate-bounce" src="img/linkedin-icon.png" alt="Linkedin Logo" />
-                </a></li>
-            <li><a href="#">
-                    <img class="h-8 hover:animate-bounce" src="img/youtube-icon.png" alt="YouTube Logo" />
-                </a></li>
+            <?php foreach ($itens as $item): ?>
+                <li>
+                    <a href="<?= htmlspecialchars($item['href']) ?>" target="_blank">
+                        <img class="h-8 hover:animate-bounce" src="<?=$item['src']?>" alt="<?=$item['alt']?>" />
+                    </a>
+                </li>
+            <?php endforeach; ?>
         </ul>
     </div>
 
