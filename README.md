@@ -15,8 +15,8 @@ Este repositório contém uma série de recursos e exercícios projetados para e
 Para começar, clone o repositório para sua máquina local:
 
 ```bash
-git clone https://github.com/rocketseat/fundamentos-php.git
-cd fundamentos-php
+git clone https://github.com/rocketseat/rocketseat-fundamentos-php
+cd rocketseat-fundamentos-php
 ```
 
 ### Pré-requisitos
