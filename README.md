@@ -1,55 +1,26 @@
-# Fundamentos de PHP - Rocketseat
+<p align="center"><img src=".github/logo.svg" width="150" alt="PHP Logo"></a></p>
 
-Bem-vindo ao repositório de Fundamentos de PHP da Rocketseat!
+<p align="center">
+  <img alt="PHP version" src="https://img.shields.io/static/v1?label=php&message=8.2&color=18181B&labelColor=5354FD">
+</p>
 
-Este material foi desenvolvido para ajudá-lo a começar com PHP e compreender os conceitos básicos desta linguagem de programação amplamente utilizada no desenvolvimento web.
+## Projeto Portfólio Dev
 
-## Sobre
+O projeto é um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional. 
+Esse é um dos projetos práticos da formação PHP, um dos conteúdos disponíveis para alunos da Rocketseat.
 
-PHP (Hypertext Preprocessor) é uma linguagem de script do lado do servidor que é especialmente adequada para desenvolvimento web. Ele pode ser embutido em HTML e é amplamente utilizado para criar sites dinâmicos e interativos.
+<br>
 
-Este repositório contém uma série de recursos e exercícios projetados para ensinar os fundamentos de PHP. O objetivo é fornecer uma compreensão sólida dos conceitos essenciais para que você possa começar a construir suas próprias aplicações web com PHP.
+<p align="center">
+  <img alt="Preview do projeto desenvolvido." src=".github/preview.png" width="60%">
+</p>
 
-## Começando
+## Tecnologias utilizadas
 
-Para começar, clone o repositório para sua máquina local:
+- [**PHP**](https://www.php.net/): Linguagem de programação usada;
+- [**Tailwind**](https://tailwindcss.com/): Framework CSS que facilita o desenvolvimento de interfaces modernas e responsivas.
 
-```bash
-git clone https://github.com/rocketseat/rocketseat-fundamentos-php
-cd rocketseat-fundamentos-php
-```
-
-### Pré-requisitos
-
-Certifique-se de ter o PHP instalado em sua máquina. Você pode instalar o PHP usando as instruções adequadas para o seu sistema operacional. Se você estiver usando um ambiente baseado em Linux, você pode usar o seguinte comando:
-
-```bash
-sudo apt update
-sudo apt install php php-cli php-fpm
-```
-
-### Executando os Exemplos
-
-Para executar os exemplos e exercícios fornecidos no repositório, você pode usar o servidor embutido do PHP. Navegue até o diretório desejado e execute o seguinte comando:
-
-```bash
-php -S localhost:8000 -d auto_prepend_file=server.php
-```
-
-Depois, abra seu navegador e acesse `http://localhost:8000` para ver os exemplos em ação.
-
-## Contribuindo
-
-Se você deseja contribuir para este repositório, sinta-se à vontade para abrir um Pull Request ou criar uma Issue para discutir melhorias. Todas as contribuições são bem-vindas!
-
-## Recursos Adicionais
-
-Aqui estão alguns recursos adicionais que podem ser úteis enquanto você aprende PHP:
-
-- [Documentação Oficial do PHP](https://www.php.net/docs.php)
-- [Tutorial de PHP da W3Schools](https://www.w3schools.com/php/)
-- [PHP: The Right Way](https://phptherightway.com/)
 
 ## Licença
 
-Este projeto é licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para mais detalhes.
